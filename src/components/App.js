@@ -66,6 +66,7 @@ const App = () => {
           value={name1}
           onChange={(e) => setName1(e.target.value)}
           data-testid="input1"
+          name="name1"
         />
       </label>
       <br />
@@ -76,6 +77,7 @@ const App = () => {
           value={name2}
           onChange={(e) => setName2(e.target.value)}
           data-testid="input2"
+          name="name2"
         />
       </label>
       <br />
